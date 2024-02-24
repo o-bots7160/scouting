@@ -1,4 +1,3 @@
-
  
 # NOTE
 This was originally forked from (https://github.com/FRC2713/QRScout).
