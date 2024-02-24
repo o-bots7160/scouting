@@ -24,8 +24,8 @@ export function QRModal(props: QRModalProps) {
   const formData = useQRScoutState(state => state.formData);
   useOnClickOutside(modalRef, props.onDismiss);
 
-  const title = `${getFieldValue('robot')} - M${getFieldValue(
-    'matchNumber',
+  const title = `M#:${getFieldValue('matchNumber')} - T#:${getFieldValue(
+    'teamNumber',
   )}`.toUpperCase();
 
   const qrCodeData = useMemo(() => getQRCodeData(formData), [formData]);
