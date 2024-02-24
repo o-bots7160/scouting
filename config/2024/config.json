@@ -10,6 +10,8 @@
           "title": "Scouter Initials",
 	  "type": "text",
           "required": true,
+	  "min": 0,
+          "max": 5,
 	  "preserveDataOnReset": true,
           "code": "scouter"
         },
