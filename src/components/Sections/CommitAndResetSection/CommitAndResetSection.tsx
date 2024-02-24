@@ -28,7 +28,7 @@ export function CommitAndResetSection({
         disabled={missingRequiredFields.length > 0}
         onClick={onCommit}
       />
-      <br><br>
+      <br>/br><br></br>
       DON'T HIT RESET UNLESS THE QR CODE HAS BEEN SCANNED!!
       <ResetButton />
     </div>
