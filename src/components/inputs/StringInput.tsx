@@ -17,6 +17,7 @@ export default function StringInput(props: StringInputProps) {
   return (
     <textarea
       className="focus:shadow-outline w-full appearance-none break-words break-all rounded border leading-tight text-gray-700 shadow focus:outline-none dark:bg-gray-700 dark:text-white"
+      style="font-size: 150%;"
       disabled={data?.disabled}
       name={`${data?.title}_input`}
       id={`${data?.title}_input`}
