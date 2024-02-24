@@ -148,8 +148,7 @@
           "min": 0,
           "max": 50,
           "required": false
-	},
-          "defaultValue": " "
+	  "defaultValue": " "
         }
       ]
     }
