@@ -21,6 +21,7 @@
 	  "preserveDataOnReset": true,
           "code": "matchNumber"
         },
+	{  
 	  "title": "Team Number",
           "type": "number",
 	  "min": 0,
