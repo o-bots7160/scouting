@@ -45,6 +45,7 @@ export function ConfigSection() {
   const formData = useQRScoutState(state => state.formData);
   return (
     <div className="mb-4 flex flex-col justify-center rounded bg-white shadow-md dark:bg-gray-600 gap-2 p-2">
+      <div className="hidden">
       <Button
         variant={Variant.Secondary}
         onClick={() =>
@@ -74,6 +75,7 @@ export function ConfigSection() {
           onChange={e => uploadConfig(e)}
         />
       </label>
+        </div>
       <ThemeSelector />
 
       <Button variant={Variant.Danger} onClick={() => resetToDefaultConfig()}>
