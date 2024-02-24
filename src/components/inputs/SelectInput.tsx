@@ -14,7 +14,7 @@ export default function SelectInput(data: SelectInputProps) {
   return (
     <select
       className="w-full rounded bg-white px-4 py-2 dark:bg-gray-700 dark:text-white"
-      style="font-size: 150%;"
+      style="font-size: 150%; height: 50px; padding-left: 15px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;"
       name={data.title}
       id={data.title}
       onChange={handleSelect}
